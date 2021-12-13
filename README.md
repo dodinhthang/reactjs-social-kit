@@ -139,6 +139,6 @@ Props
 <br/>
 
 ## License
-Glad to hear from you and contribute
+I'm very happy to receive suggestions and contributions from everyone <3
 
 MIT © [dodinhthang](https://github.com/dodinhthang)(Thang Do)
