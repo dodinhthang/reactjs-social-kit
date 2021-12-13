@@ -11,6 +11,22 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "social",
+    "facebook",
+    "twitter",
+    "pinterest",
+    "google",
+    "twitter",
+    "google",
+    "javascript",
+    "login-social",
+    "react-login-social",
+    "instagram",
+    "linkedin",
+    "line"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -31,6 +47,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^25.1.4",
+    "@types/lodash": "^4.14.178",
     "@types/node": "^12.12.38",
     "@types/react": "^16.9.27",
     "@types/react-dom": "^16.9.7",
@@ -61,8 +78,6 @@
     "dist"
   ],
   "dependencies": {
-    "@types/lodash": "^4.14.178",
-    "classnames": "^2.3.1",
     "lodash": "^4.17.21"
   }
 }
