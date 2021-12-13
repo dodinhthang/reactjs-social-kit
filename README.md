@@ -7,13 +7,12 @@
 [![NPM](https://img.shields.io/npm/v/reactjs-social-kit.svg)](https://www.npmjs.com/package/reactjs-social-kit)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![node version](https://img.shields.io/badge/node.js-%3E=_6-green.svg?style=flat)](http://nodejs.org/download/)
-[![npm download](https://img.shields.io/npm/dm/reactjs-social-kit.svg?style=flat)](https://www.npmjs.com/package/reactjs-socical-kit)
+[![npm download](https://img.shields.io/npm/dm/reactjs-social-kit.svg?style=flat)](https://www.npmjs.com/package/reactjs-social-kit)
 [![npm bundle zip](https://img.shields.io/bundlephobia/minzip/reactjs-social-kit?style=flat)](https://www.npmjs.com/package/reactjs-social-kit)
 
 ## Function
 
-Currently This package are and are preparing to support the following functions
-
+Currently this library has supported and prepared to support the following functions:
 > 1.  Google
 > 2.  Facebook
 > 3.  Instagram (coming soon)
