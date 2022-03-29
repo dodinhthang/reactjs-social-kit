@@ -34,7 +34,7 @@ npm install --save reactjs-social-kit
 Use `yarn`
 
 ```bash
-yarn  reactjs-social-kit
+yarn add reactjs-social-kit
 ```
 
 ## Usage
