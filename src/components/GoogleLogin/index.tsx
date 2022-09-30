@@ -50,8 +50,6 @@ export interface GoogleSuccessData {
   tokenType: string
 }
 
-const _window = window as any
-
 const GoogleLogin = forwardRef(
   (
     {
@@ -75,9 +73,9 @@ const GoogleLogin = forwardRef(
     }: Props,
     ref: React.Ref<TypeRef>
   ) => {
+    const _window = window as any
     const [isLoaded, setIsLoaded] = useState(false)
     const [isLogged, setIsLogged] = useState(false)
-
     useEffect(() => {
       if (document.getElementById('google-login')) {
         setIsLoaded(true)
