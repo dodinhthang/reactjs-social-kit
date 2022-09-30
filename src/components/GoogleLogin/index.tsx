@@ -73,10 +73,12 @@ const GoogleLogin = forwardRef(
     }: Props,
     ref: React.Ref<TypeRef>
   ) => {
-    const _window = window as any
+    let _window: any
     const [isLoaded, setIsLoaded] = useState(false)
     const [isLogged, setIsLogged] = useState(false)
+
     useEffect(() => {
+      _window = window
       if (document.getElementById('google-login')) {
         setIsLoaded(true)
       } else {
@@ -123,6 +125,7 @@ const GoogleLogin = forwardRef(
     }
 
     const handleClickLogin = () => {
+      _window = window as any
       if (!isLoaded) {
         return
       }
