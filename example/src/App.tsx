@@ -9,7 +9,7 @@ import {
   GoogleSuccessData,
   TypeRef
 } from 'reactjs-social-kit'
-import 'reactjs-social-kit/dist/index.css'
+// import 'reactjs-social-kit/dist/index.css'
 
 const App = () => {
   const facebookRef = useRef<TypeRef>(null!)

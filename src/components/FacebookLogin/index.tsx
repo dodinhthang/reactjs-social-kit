@@ -46,8 +46,6 @@ interface FacebookSuccessData {
   userID: string
 }
 
-const _window = window as any
-
 const FacebookLogin = forwardRef(
   (
     {
@@ -72,10 +70,13 @@ const FacebookLogin = forwardRef(
     }: Props,
     ref: React.Ref<TypeRef>
   ) => {
+    let _window: any
+
     const [isLoaded, setIsLoaded] = useState(false)
     const [isLogged, setIsLogged] = useState(false)
 
     useEffect(() => {
+      _window = window
       if (document.getElementById('facebook-jssdk')) {
         setIsLoaded(true)
       } else {
@@ -118,6 +119,7 @@ const FacebookLogin = forwardRef(
     }
 
     const handleClickLogin = () => {
+      _window = window as any
       if (!isLoaded) {
         return
       }
